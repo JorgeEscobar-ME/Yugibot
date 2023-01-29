@@ -3,7 +3,7 @@ import random
 import pandas as pd
 from discord.ext import commands
 
-token ="MTA2NDc3MTYxODY4NzE1NjI4NA.GdNHh3.80qQ0T8LwsXFsg3oizQW-PA6nYIb8-XTUtYb80"
+token =""
 bot = commands.Bot(command_prefix = '!', intents=discord.Intents.all())
 
 aTDG = pd.read_excel('sobres.xlsx', sheet_name=0)
